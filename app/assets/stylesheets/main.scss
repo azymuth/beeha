@@ -1,0 +1,70 @@
+$montez:  'Montez', cursive;
+$lato: 'Lato', sans-serif;
+
+// Pallete
+
+$ochre: rgba(167,114,0,1);
+$ochre1: rgba(207,145,6,1);
+$ochre2: rgba(137,95,0,1);
+$beige: rgba(196,180,157,1);
+$petrol: rgba(37,69,64,1);
+
+body{
+  
+  font-family: $lato
+  
+}
+
+a{
+  text-decoration:none;
+  color:$petrol;
+}
+
+#wrapper {
+  width: 960px;
+  margin: 0 auto;
+//  border:1px solid #ddd;
+}
+
+.top-spacer{
+  
+  height:75px;
+  
+}
+
+#splash{
+
+}
+
+#splash-background{
+  
+  background-color: $beige;
+  text-align:center;
+  width:400px;
+  margin:0 auto;
+  padding: 20px 40px 40px 40px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+#title{
+  
+  font-size:6em;
+  font-family: $montez;
+  font-weight:bold;
+  color:$ochre;
+  
+}
+
+#strapline{
+  color:$ochre;
+  font-size:2em;
+  font-weight:300;
+  
+}
+
+.twitter{
+  font-size:0.5em;
+  font-weight:bold;
+}
